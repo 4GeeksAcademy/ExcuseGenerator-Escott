@@ -12,7 +12,7 @@ window.onload = function() {
 };
 
 // Who, What, Where, When, Why, & How
-let excuseGenerator = () => {
+const excuseGenerator = () => {
   let article = ["A", "The"];
   let subject = ["burglar", "cat", "dog", "monkey", "donkey"];
   let action = ["stole my", "slapped my", "punched my", "threw my"];
